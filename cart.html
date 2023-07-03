@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Book Store - Cart</title>
+    </head>
+<body>
+    <div class="header">
+        <a href="Home.html"><img src="logo.png" alt=""></a>
+        <ul class="list-items">
+            <a href="Home.html"><li>Home</li></a>
+            <a href="cart.html"><li>Cart</li></a>
+            <a href="About us.html"><li>About Us</li></a>
+        </ul>
+    </div>
+
+
+<form class="form">
+<div>
+<div class="upper-div">
+
+
+    <legend class="form-title"> Details</legend>
+    <fieldset class="form" style="border:1px solid rgb(233, 0, 0) ;">
+    <form>
+    <div>
+
+    <label for="details" class="sub-title">Make it a gift?</label><br>
+    <input type="radio" name="details" value="Yes" id="giftyes" /><label> Yes</label>
+    <input type="radio" name="details" value="No" id ="giftno"/><label> No</label>
+    <br>
+        
+        <label for="comments" class="sub-title">Comments:</label><br><br>
+        <textarea rows="5" cols="80" name="comments"></textarea>
+    
+</div>
+
+<fieldset class="form" style="border:1px solid rgb(233, 0, 0) ;">
+ <form>
+    
+    <legend class="form-title" id="demo2">Customer information</legend>
+    <lable for"first_name" class="sub-title" id="first_name" >First Name : </lable><br>
+    <input type="text" name="first_name" value="" maxlength="32" pattern="[A-Za-z]{32}" id="first_name_input" onkeydown="return /[a-z]/i.test(event.key)" title="Three letter country code" required /><br>
+    <lable for"second_name" class="sub-title" id="second_name" >Second Name :</lable><br>
+    <input type="text" name="second_name" value="" maxlength="32" onkeydown="return /[a-z]/i.test(event.key)" id="second_name_input" required/><br>
+    <lable for"last_name" class="sub-title" id="last_name">Last Name :</lable><br>
+    <input type="text" name="last_name" value="" maxlength="32"  onkeydown="return /[a-z]/i.test(event.key)"" id="last_name_input" required/><br>
+    <lable for"email" class="sub-title"  id="email">Email :</lable><br>
+    <input type="email" name="email"  value="" maxlength="32"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" id="email_input" required/><br>
+    <lable for"phone" class="sub-title" id="phone">Phone Number :</lable><br>
+    <input type="number" name="phone" value=""  maxlength="10" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id="phone_input" required/><br>
+    <lable for"city" class="sub-title" id="city" pattern="[A-Za-z]" >City :</lable><br>
+    <input type="text" name="city" value="" maxlength="100" pattern="[A-Za-z]" id="city_input" onkeydown="return /[a-z]/i.test(event.key)" required/><br><br><br>
+    <a  class="button" id="submit" value="submit" />Submit </a>
+
+
+
+</form>
+        <br><br>
+        </div>
+        </fieldset>
+        </form>
+     </form>
+</fieldset>
+
+<p class="form-title" id="demo" >Your Books</p>
+<fieldset class="form" style="border:1px solid rgb(233, 0, 0) ;">
+<form>
+<div class="upper-div">
+
+<legend class="form-title">Python Programming 3rd Edition</legend>
+<br>
+<img src="python.jpg" class="right-img" width="200px">
+<br>
+<label for="quantity" class="sub-title">Choose a Chapter:</label>
+<div class="radio-buttons">
+<input type="radio" name="first_book" value="ah1" id="CH1"/><label>Chapter one</label><br>
+<input type="radio" name="first_book" value="sh2" id="CH2"/><label>Chapter two</label> <br>
+<input type="radio" name="first_book" value="all" id="CH12"><label>Chapter one and two</label>
+</div>
+<br>
+<br>
+<label for="quantity" class="sub-title">Choose The quantity:</label>
+<select name="quantity">
+    
+
+    <option value ="quantity">Quantity</option>
+    <option value ="one" id="copy1"/>One copy</option>
+    <option value ="two" id="copy2"/>Two copies</option>
+    <option value ="three" id="copy3"/>Three copies</option>
+    <option value ="four" id="copy4"/>Four copies</option>
+</select>
+
+<br><br>
+<a  class="button" id="download" value="download" />Download </a>
+</form>
+</fieldset>
+
+
+
+<script src ="myjs.js"> </script>
+
+
+</div>
+</form>
+</fieldset>
+
+</form>
+</body>
+</div>
+</div>
+<br><br>
+
+<br>
+<div class="footer">
+    Contact us : +9660123456789 |   Made By KKU Students.
+</div>
+</body>
+</html>

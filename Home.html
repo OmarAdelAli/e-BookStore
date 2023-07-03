@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Book Store - Home</title>
+    </head>
+<body>
+
+    <div class="header">
+        <a href="Home.html"><img src="logo.png" alt=""></a>
+        <ul class="list-items">
+            <a href="Home.html"><li>Home</li></a>
+            <a href="cart.html"><li>Cart</li></a>
+            <a href="About us.html"><li>About Us</li></a>
+        </ul>
+    </div>
+    <br>
+    <br>
+
+    <legend class="form-title">The Books</legend>
+
+<form class="form">
+
+
+    
+<legend class="form-title">Python Programming 3rd Edition</legend>
+
+
+<br>
+<img  class="center" src="python.jpg" id="b1"  href="cart.html"></a>
+<legend class="form-title">the Price : 100$ </legend>
+
+
+<script>
+
+
+
+
+var button = document.getElementById('b1');
+
+
+button.onclick = gotocart;
+function gotocart() {
+   
+       window.open(href="cart.html");
+      
+}
+</script>
+
+
+
+</form>
+<br><br><br><br>
+<form class="form">
+
+<legend class="form-title">Game Development -Unity 3D-</legend><br>
+<img   cursor: pointer;   class="center"  src="unity.jpg"  id="b2"></a>
+<legend class="form-title">the Price : 150$ </legend>
+
+
+<script>
+
+    var button = document.getElementById('b2');
+    button.onclick = book_not_available;
+    function book_not_available() {
+    
+    
+           alert("Sorry, this book is not available right now .");
+    
+    }
+    </script>
+
+
+
+<script src ="myjs.js"> </script>
+
+
+
+</form>
+</body>
+</div>
+</div>
+<br><br>
+
+</form>
+<br><br>
+<div class="footer">
+    contact us : +9660123456789 |   Made By KKU Students.
+</div>
+<br>
+</body>
+</html>
